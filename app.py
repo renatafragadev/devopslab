@@ -11,5 +11,5 @@ def pagina_inicial():
 
 @app.route("/random")
 def list_names(): 
-    randon_value = random.randint(1, 20)
+    randon_value = random.randon()
     return str(randon_value)
